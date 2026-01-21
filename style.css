@@ -1,0 +1,71 @@
+body {
+  font-family: sans-serif;
+  padding: 15px;
+  background: #f5f5f5;
+}
+
+/* سرلیک */
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* عکس */
+img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 15px auto;
+  border: 3px solid #ddd;
+}
+
+/* فورم */
+input,
+textarea,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+/* تڼۍ */
+button {
+  background: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* د بریا پیغام */
+.message {
+  display: none;
+  padding: 12px;
+  margin-top: 10px;
+  background: #d4edda;
+  color: #155724;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* د باور پیغام */
+.trust {
+  margin-top: 15px;
+  font-size: 13px;
+  color: #777;
+  text-align: center;
+}
